@@ -11,7 +11,6 @@ public class SortAlgorithm {
     24,625,3421,55523,256,124,6773,145,66,872,266,721,-10,103,-945,-213,149,0,
     35,567,6,146,147,1};
 
-
     public static void main(String[]args) {
         System.out.println("Table length: " + tablica.length);
         sort(tablica);
