@@ -1,4 +1,4 @@
-package main.chapter6;
+package chapter6;
 
 /**
  * @Author
