@@ -1,5 +1,7 @@
 package chapter7;
 
+import java.util.*;
+
 /**
  * @Author 
  * Karol Meksu³a
@@ -16,5 +18,11 @@ public class Main {
 		
 		int nww = EuklidesAlgorith.nww(2, 29);
 		System.out.println("\nNajmniejsza wspólna wielokrotnoœæ: " + nww);
+		
+		List<Integer> primes = ErathostenesSieve.sieve(100);
+		System.out.println("\nLiczby pierwsze w zakresie [100]" + primes);
+		
+		
+		
 	}
 }
