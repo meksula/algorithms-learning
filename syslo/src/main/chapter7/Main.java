@@ -19,10 +19,8 @@ public class Main {
 		int nww = EuklidesAlgorith.nww(2, 29);
 		System.out.println("\nNajmniejsza wspólna wielokrotnoœæ: " + nww);
 		
-		List<Integer> primes = ErathostenesSieve.sieve(100);
+		List<Integer> primes = ErathostenesSieve.sieve(1000);
 		System.out.println("\nLiczby pierwsze w zakresie [100]" + primes);
-		
-		
 		
 	}
 }
