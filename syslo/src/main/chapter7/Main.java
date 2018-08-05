@@ -22,5 +22,11 @@ public class Main {
 		List<Integer> primes = ErathostenesSieve.sieve(1000);
 		System.out.println("\nLiczby pierwsze w zakresie [100]" + primes);
 		
+		int[] fibonacci = Fibonacci.fibonacci(20);
+		System.out.println("\nLiczby Fibonacciego: ");
+		
+		for(int i : fibonacci) {
+			System.out.print(i + ", ");
+		}
 	}
 }
