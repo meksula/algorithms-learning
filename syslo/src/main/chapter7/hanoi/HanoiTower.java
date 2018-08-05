@@ -1,7 +1,5 @@
 package chapter7.hanoi;
 
-import dto.*;
-
 /**
  * @Author 
  * Karol Meksu³a
@@ -45,8 +43,8 @@ public class HanoiTower {
 		
 	}
 	
-	public void moveRingWithHelper(int from, int to, int helper) {
-		//TODO
+	public Stick[] getSticks() {
+		return sticks;
 	}
 	
 	public boolean checkout() {
