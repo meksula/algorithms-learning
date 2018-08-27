@@ -1,5 +1,7 @@
 package chapter9;
 
+import chapter10.InsertionSort;
+
 /**
  * @Author
  * Karol Meksu³a
