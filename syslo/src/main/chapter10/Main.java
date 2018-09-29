@@ -1,7 +1,5 @@
 package main.chapter10;
 
-import chapter10.MergeSort;
-
 import java.util.Arrays;
 
 /**
@@ -33,6 +31,13 @@ public class Main {
 		int[] sortedSet = new QuickSort(set).quickSort();
 
 		System.out.println("AFTER: " + Arrays.toString(sortedSet));
+
+		System.out.println("\n\n*** ***\nQuick Sort wersja nr. 2");
+
+		int[] beforeSort = ArrayOperations.shuffleIntsArrays(set);
+		int[] resultSorted = new QuickSortImproved().quickSort(beforeSort);
+		System.out.println(Arrays.toString(beforeSort));
+		System.out.println(Arrays.toString(resultSorted));
 	}
 	
 }

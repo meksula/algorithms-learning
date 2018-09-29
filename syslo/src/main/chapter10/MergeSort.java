@@ -1,8 +1,8 @@
-package chapter10;
+package main.chapter10;
 
 /**
  * @author
- * Karol Meksu³a
+ * Karol Meksuï¿½a
  * 27-08-2018
  * */
 
@@ -47,5 +47,7 @@ public class MergeSort {
 		}
 		return mergedSet;
 	}
+
+
 	
 }

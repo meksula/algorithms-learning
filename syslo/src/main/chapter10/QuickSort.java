@@ -31,11 +31,13 @@ public class QuickSort {
     /**
      * Jeśli pierwszy index jest mniejszy od ostatniego + 1, to */
     private void sort(int first, int last) {
-        if (first < last + 1) {
-            int index = divide(first, last);
-            sort(first, index - 1);
-            sort(index + 1, last);
+        if (last <= first) {
+            return;
         }
+
+        int index = divide(first, last);
+        sort(first, index - 1);
+        sort(index + 1, last);
     }
 
     /**
